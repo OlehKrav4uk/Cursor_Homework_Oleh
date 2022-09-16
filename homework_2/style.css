@@ -1,8 +1,16 @@
-.body{ background-color:black  }
+body{ background-color:black 
+ }
 h1{color: darkgoldenrod;}
 h2{color: darkgoldenrod;}
 p{color: darkorange;}
 ul{color: darkorange;}
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+
 section{
     margin-left: auto;
     margin-right: auto;
