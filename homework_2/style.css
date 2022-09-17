@@ -1,10 +1,9 @@
-body{ background-color:black 
+body{
+     background-color:black 
  }
-h1{color: darkgoldenrod;}
-h2{color: darkgoldenrod;}
-p{color: darkorange;}
-ul{color: darkorange;}
-a{color: goldenrod;}
+ 
+ul,a,p{color: rgb(232, 230, 151);}
+h1,h2{color: darkorange;}
 
 header{
     margin-left: auto;
