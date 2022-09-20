@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600&display=swap');
 body{
+    display: flex;
     font-family: 'Lato', sans-serif;
     color: rgb(255, 255, 255);
-    width: 1440px;
-    height: 1480px;
+    width: 100%;
+    height: 100%;
+    
    
  }
 
@@ -11,10 +13,14 @@ body{
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    min-height: 100%;
-   
+    height: 1480px;
+    width: 1440px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 
-background: #FFFFFF;
+
  }
 
  /*header*/
@@ -23,11 +29,13 @@ background: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    min-width: 100%;
+    width: 1440px;
     height: 500px;
     left: 0px;
     top: 0px;
     background: #ED4C5C;
+  
+    
  }
 
  .hdr-p1{
@@ -42,6 +50,7 @@ background: #FFFFFF;
     font-size: 36px;
     line-height: 43px;
     color: #FFFFFF;
+    
  }
 
  .hdr-p2{
@@ -58,4 +67,69 @@ background: #FFFFFF;
     text-align: justify;
     color: #FFFFFF;
 
+ }
+
+ .app_link{
+    display: flex;
+    align-items: center;
+    width: 134px;
+    height: 32px;
+    column-gap: 23px;
+    padding-top: 357px;
+    padding-left: 163px;
+
+ }
+
+ .icon_link{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    column-gap: 23px;
+ }
+
+ .icon_img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+ }
+
+ .header_photo{
+    position: absolute;
+    width: 533px;
+    height: 311px;
+    left: 691px;
+    top: 94px;
+
+ }
+
+ .photo1{
+    position: absolute;
+    width: 383px;
+    height: 267px;
+    padding: 22px 106px 22px 0;
+    
+ } 
+
+ .photo2{
+    position: absolute;
+    width: 383px;
+    height: 267px;
+    padding: 22px 0 22px 150px;
+
+ }
+
+ .photo3{
+    position: absolute;
+    width: 445px;
+    height: 311px;
+    padding-left: 44px;
+ }
+
+ /*Contact*/
+
+ .contact{
+    display: flex;
+    min-width: 100%;
+    height: 500px;
+  
  }
