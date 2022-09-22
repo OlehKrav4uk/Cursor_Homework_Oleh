@@ -256,34 +256,47 @@ input[type="text"] {
    height: 66px;
    margin: 0%;
    top: 180px;
-border: 1px solid #333333;
-border-radius: 6px;
+   border: 1px solid #333333;
+   border-radius: 6px;
 }
 
 
 
 
-.slct_butt{
-   
+.slct_butt{   
 position: absolute;
 width: 500px;
 height: 66px;
 border: none;
 outline: none;
 left: 28px;
-
-
 }
 
 
- select {
-   
+select{
    font-family: 'Lato';
    font-style:normal ;
    font-weight: 470;
    font-size: 16px;
    line-height: 19px;
    outline: none;
-   color:#6e6e6e
-   
- } 
+   color:#6e6e6e;
+   } 
+
+.submit_butt{
+   position: absolute;
+   width: 160px;
+   height: 50px;
+   top: 272px;
+   background: #ED4C5C;
+   border: none;
+   border-radius: 6px;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 17px;
+   text-transform: uppercase;
+   color:#FFFFFF;
+   }
+
