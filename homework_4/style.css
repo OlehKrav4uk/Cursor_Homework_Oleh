@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600&display=swap');
 body{
-    display: flex;
-    font-family: 'Lato', sans-serif;
-    color: rgb(255, 255, 255);
-    width: 100%;
-    height: 100%;
-    
+   width: 100%;
+   height: 100%;
+   
    
  }
 
  .page{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     overflow: hidden;
     height: 1480px;
     width: 1440px;
@@ -19,7 +17,7 @@ body{
     left: 0;
     right: 0;
     margin: 0 auto;
-
+ 
 
  }
 
@@ -27,8 +25,6 @@ body{
 
  .header{
     display: flex;
-    flex-wrap: wrap;
-    position: absolute;
     width: 1440px;
     height: 500px;
     left: 0px;
@@ -129,7 +125,165 @@ body{
 
  .contact{
     display: flex;
-    min-width: 100%;
+    flex-wrap: wrap;
+    width: 1440px;
     height: 500px;
+    background-color: #FFFFFF;
+   
   
  }
+
+ .contact_txt{
+   position: absolute;
+   width: 445px;
+   height: 160px;
+   left: 176px;
+   top: 617px;
+
+ }
+
+ .cont_h2{
+   display: inline-block;
+   width: 130px;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 43px;
+   color: #000000;
+
+ }
+
+ .cont_txt{
+   width: 434px;
+   height: 64px;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 140%;
+   text-align: justify;
+   color: #000000;
+   padding-top: 53px;
+
+   
+ }
+
+ .userbox{
+   display: flex;
+   flex-wrap: wrap;
+   position: absolute;
+   width: 540px;
+   height: 305px;
+   height: 305px;
+   left: 735px;
+   top: 617px;
+   
+
+}
+
+
+
+.name{
+   display: flex;
+   width: 540px;
+   height: 66px;
+   gap: 30px;
+   margin: 0%;
+
+}
+
+.first{
+   box-sizing: border-box;
+   width: 255px;
+   height: 60px;
+   border: 1px solid #333333;
+   border-radius: 6px;
+   margin: 0%;
+
+   
+}
+
+.last{
+   box-sizing: border-box;
+   width: 255px;
+   height: 66px;
+   border: 1px solid #333333;
+   border-radius: 6px;
+   margin: 0%;
+}
+
+
+.phone{
+display: flex;
+position: absolute;
+width: 540px;
+height: 66px;
+margin: 0%;
+top: 90px;
+}
+
+
+.nomber{
+   box-sizing: border-box;
+   width: 540px;
+   height: 66px;
+   border: 1px solid #333333;
+   border-radius: 6px;
+   margin: 0%;
+ 
+}
+
+
+input[type="text"] {
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: rgba(19, 39, 67, 0.5);
+   outline: none;
+   padding: 32px;
+   
+   }
+
+
+
+.sbmt{
+   display: flex;
+   position: absolute;
+   width: 540px;
+   height: 66px;
+   margin: 0%;
+   top: 180px;
+border: 1px solid #333333;
+border-radius: 6px;
+}
+
+
+
+
+.slct_butt{
+   
+position: absolute;
+width: 500px;
+height: 66px;
+border: none;
+outline: none;
+left: 28px;
+
+
+}
+
+
+ select {
+   
+   font-family: 'Lato';
+   font-style:normal ;
+   font-weight: 470;
+   font-size: 16px;
+   line-height: 19px;
+   outline: none;
+   color:#6e6e6e
+   
+ } 
